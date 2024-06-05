@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="nav">
+            <div class="uifry">
+                <img src="photo/Frame.png" alt="uifry" width="20">
+                <span>uifry</span><sup>TM</sup>
+            </div>
+            <a href="#">
+                <div class="home">Home</div>
+            </a>
+            <a href="#">
+                <div> About Us</div>
+            </a>
+            <a href="#">
+                <div> Pricing</div>
+            </a>
+            <a href="#">
+                <div>Features</div>
+            </a>
+        </div>
+        <button class="download" onclick="download()">Download</button>
+    </nav>
+
+    <section class="section">
+        <div>
+            <h1>Make The Best Financial Decisions</h1>
+            <p class="para">Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu
+                adipiscing sociis arcu lorem porttitor.</p>
+            <div class="container">
+                <button onclick="start()">Get Started &nbsp;&#8594;</button>
+                <a href="https://bitly.cx/8dMbj" target="_blank">
+                    <span>
+                        <svg width="50" height="25" viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="45" stroke="black" stroke-width="2" fill="none" />
+                            <polygon points="40,35 70,50 40,65" fill="black" />
+                        </svg><b>Watch Video</b>
+                    </span>
+                </a>
+            </div><br>
+            <img src="photo/Group 1.png" height="400rem">
+        </div>
+        <img src="photo/phone1.png" alt="iphone images" height="650rem">
+    </section>
+
+    <section class="section">
+        <img src="photo/phone2.png" height="500rem">
+        <div class="div">
+            <p class="p">FEATURES</p>
+            <h1>Uifry Premium</h1>
+            <div>
+                <div class="subhead">
+                    <span class="symbol">&#10209;</span>
+                    Budgeting Intervals
+                </div>
+                <p class="para">
+                    Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing
+                    sociis arcu lorem porttitor.
+                </p>
+                <div class="subhead"><span class="symbol">&#9784;</span>
+                    Budgeting Intervals
+                </div>
+                <p class="para">
+                    Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing
+                    sociis arcu lorem porttitor.
+                </p>
+                <div class="subhead"><span class="symbol">&#10066;</span>
+                    Budgeting Intervals
+                </div>
+                <p class="para">
+                    Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing
+                    sociis arcu lorem porttitor.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div>
+            <p class="p">ADVANTAGES</p>
+            <h1>Why Choose Uifry?</h1>
+            <div>
+                <div class="subhead sh">
+                    <img src="photo/bell.png" height="60rem" class="img">
+                    Clever Notifications
+                </div>
+                <p class="para">
+                    Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit
+                    mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam
+                    suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.
+                </p>
+            </div>
+        </div>
+        <img class="div" src="photo/phone3.png" height="500rem">
+    </section>
+
+    <section class="section">
+        <img src="photo/phone4.png" height="500rem">
+        <div class="div">
+            <div class="subhead sh">
+                <img src="photo/star.png" height="60rem" class="img">
+                Fully Customizable
+            </div>
+            <p class="para">
+                Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris
+                etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse
+                sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.
+            </p>
+        </div>
+    </section>
+
+    <div align="center">
+        <p class="p" style="color: black;">TESTIMONIAL</p>
+        <h1>What Our Users <br> Say About Us?</h1>
+    </div>
+    <section class="section">
+        <img src="photo/Group 2.png" height="500rem">
+        <div class="div">
+            <div class="subhead sh">
+                The Best Financial Accounting App Ever!
+            </div>
+            <p class="para">
+                “Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris
+                etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse
+                sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.”
+            </p><br>
+            <div id="pic">
+                <img id="pic1" src="photo/person (1).png" height="70rem" class="hover-effect">
+                <img id="pic2" src="photo/person (2).png" height="70rem" class="hover-effect">
+                <img id="pic3" src="photo/person (3).png" height="70rem" class="hover-effect">
+                <img id="pic4" src="photo/person (4).png" height="70rem" class="hover-effect">
+                <img id="pic5" src="photo/person (5).png" height="70rem" class="hover-effect">
+            </div><br>
+            <p id="name">&nbsp;</p>
+        </div>
+    </section>
+
+    <section>
+        <p class="p">FAQ</p>
+        <h1>Frequently Asked <br> Questions</h1>
+        <div id="box">
+            <div class="box boxcolour">
+                <div class="subhead sh">
+                    The Best Financial Accounting App Ever!
+                </div>
+                <p>
+                    “Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit
+                    mauris.
+                </p>
+            </div>
+            <div class="box">
+                <div class="subhead sh">
+                    The Best Financial Accounting App Ever!
+                </div>
+                <p class="para">
+                    “Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit
+                    mauris.
+                </p>
+            </div>
+            <div class="box">
+                <div class="subhead sh">
+                    The Best Financial Accounting App Ever!
+                </div>
+                <p class="para">
+                    “Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit
+                    mauris.
+                </p>
+            </div>
+            <div class="box boxcolour">
+                <div class="subhead sh">
+                    The Best Financial Accounting App Ever!
+                </div>
+                <p>
+                    “Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit
+                    mauris.
+                </p>
+            </div>
+            <div class="box boxcolour">
+                <div class="subhead sh">
+                    The Best Financial Accounting App Ever!
+                </div>
+                <p>
+                    “Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit
+                    mauris.
+                </p>
+            </div>
+            <div class="box">
+                <div class="subhead sh">
+                    The Best Financial Accounting App Ever!
+                </div>
+                <p class="para">
+                    “Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit
+                    mauris.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="blackbox" class="section">
+        <div>
+            <h1 style="margin-bottom: 1.5rem;">Ready To Get Started?</h1>
+            <p>Risus habitant leo egestas mauris diam eget morbi tempus vulputate.</p>
+            <button class="whitebutton container" onclick="apple()">
+                <span><b>Download App</b></span>&nbsp;&nbsp;
+                <img src="photo/apple.png" height="25rem">
+            </button>
+        </div>
+        <img src="photo/phone5.png">
+    </section>
+
+    <footer>
+        <div class="section">
+            <div>
+                <div class="uifry">
+                    <img src="photo/Frame.png" alt="uifry" width="35">
+                    <span class="footspan">uifry</span><sup>TM</sup>
+                </div>
+                <div class="subhead">
+                    <span class="symbol">&#9993;</span>
+                    <a href="https://Help@Frybix.Com" target="_blank">Help@Frybix.Com</a>
+                </div>
+                <div class="subhead">
+                    <span class="symbol">&#128222;</span>
+                    +1234 456 678 89
+                </div>
+            </div>
+            <div>
+                <div class="uifry footspan">Links</div>
+                <div class="subhead"><a href="#">Home</a></div>
+                <div class="subhead"><a href="#">About Us</a></div>
+                <div class="subhead"><a href="#">Bookings</a></div>
+                <div class="subhead"><a href="#">Blog</a></div>
+            </div>
+            <div>
+                <div class="uifry footspan">Legal</div>
+                <div class="subhead"><a href="#">Terms of Use</a></div>
+                <div class="subhead"><a href="#">Privacy policy</a></div>
+                <div class="subhead"><a href="#">Cookie Policy</a></div>
+            </div>
+            <div>
+                <div class="uifry footspan">Product</div>
+                <div class="subhead"><a href="#">Take Tour</a></div>
+                <div class="subhead"><a href="#">Live Chat</a></div>
+                <div class="subhead"><a href="#">Reviews</a></div>
+            </div>
+            <div style="margin-right: 6rem;">
+                <div class="div">
+                    <div class="uifry footspan">Newsletter</div>
+                    <div class="subhead">Stay Up To Date</div>
+                </div><br>
+                <div>
+                    <input type="email" placeholder="Your email">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div style="margin-right: 8rem;">
+            <div class="fade-hr"></div>
+            <p align="center">Copyright 2022 Uifry.Com All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="javaScript.js"></script>
+    <script src="jQuery.js"></script>
+</body>
+
+</html>
