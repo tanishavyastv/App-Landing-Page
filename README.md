@@ -13,7 +13,6 @@ This is a landing page for the UIFry financial application. The design is focuse
 - **Buttons and Links:** Buttons are styled with a black background, white text, and rounded borders to make them stand out. Links have black text color and are styled to remove the default underline.
 - **Hover Effects:** Buttons and certain images have hover effects applied to provide visual feedback to users, such as scaling up and adding shadows.
 - **Containers and Sections:** Containers are used to group elements and ensure proper alignment. Sections are styled with flexbox to maintain consistent spacing between different content sections.
-- **Grid Layout:** A grid layout is utilized for certain sections, providing a responsive layout for grid items.
 
 ## Libraries Used
 
