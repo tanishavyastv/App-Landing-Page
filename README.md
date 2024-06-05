@@ -6,9 +6,14 @@ This is a landing page for the UIFry financial application. The design is focuse
 
 ## Design Choices
 
-- **Color Scheme:** A modern, professional palette that is easy on the eyes and emphasizes readability.
-- **Typography:** Clear and legible fonts to enhance user experience.
-- **Icons and Images:** Used to visually represent different sections and enhance engagement.
+- **Font Styles:** The entire page is styled using the 'Segoe UI' font family to maintain a consistent and modern look. Various font weights are used to emphasize different elements.
+- **Layout and Spacing:** Flexbox is extensively utilized for layout management, ensuring elements are properly aligned and spaced. Margins are adjusted to provide adequate spacing between elements and maintain visual hierarchy.
+- **Color Scheme:** The color scheme primarily consists of black and white, with 'orangered' highlights for emphasis.
+- **Icons and Images:** Background images are used for the body and specific sections to add visual interest.
+- **Buttons and Links:** Buttons are styled with a black background, white text, and rounded borders to make them stand out. Links have black text color and are styled to remove the default underline.
+- **Hover Effects:** Buttons and certain images have hover effects applied to provide visual feedback to users, such as scaling up and adding shadows.
+- **Containers and Sections:** Containers are used to group elements and ensure proper alignment. Sections are styled with flexbox to maintain consistent spacing between different content sections.
+- **Grid Layout:** A grid layout is utilized for certain sections, providing a responsive layout for grid items.
 
 ## Libraries Used
 
