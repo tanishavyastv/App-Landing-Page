@@ -21,7 +21,7 @@ This is a landing page for the UIFry financial application. The design is focuse
 
 ## Figma Design
 
-The Figma design used as a reference can be found [here]([https://www.figma.com/file/YOUR_FIGMA_DESIGN_LINK](https://www.figma.com/design/Jh35oqUvXMxjFhT577yQAS/App-Landing-Page-Finance-Bank-Money-(Community)?node-id=101-79&t=sl9vjs0J5At6iYRy-1)).
+The Figma design used as a reference can be found [here](https://www.figma.com/design/Jh35oqUvXMxjFhT577yQAS/App-Landing-Page-Finance-Bank-Money-(Community)?node-id=101-79&t=sl9vjs0J5At6iYRy-1).
 
 ## Instructions to Run the Project Locally
 
